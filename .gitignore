@@ -2,7 +2,7 @@
 
 
 # email.js keys
-/src/Keys/Keys.js
+/src/Keys
 
 # dependencies
 /node_modules
