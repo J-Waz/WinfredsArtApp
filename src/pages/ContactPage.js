@@ -17,6 +17,8 @@ class ContactPage extends React.Component {
             name: "",
             email: "",
             message: "",
+            emailSent: null,
+            disabled: false,
         }
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -47,8 +49,27 @@ class ContactPage extends React.Component {
                 "ContactForm",
                 user_id
             )
-            .then()
-            .catch()
+            .then(res => {
+                if(res.data.success) {
+                    this.setState({
+                        disabled: false,
+                        emailSent: true
+                    });
+                } else {
+                    this.setState({
+                        disabled: false,
+                        emailSent: false
+                    });
+                }
+            })
+            .catch(err => {
+                console.log(err);
+
+                this.setState({
+                    disabled: false,
+                    emailSent: false
+                });
+            })
 
         this.setState({
             name: "",

@@ -43,14 +43,6 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Winfred Taylor',
-                    subTitle: 'This is also my Life',
-                    imgSrc: winfredprof,
-                    link: 'https://www.artspacechicago.com/art-openings',
-                    selected: false
-                },
-                {
-                    id: 1,
                     title: "Of Sound Mind",
                     subTitle: '13 x 15 Oil on Canvas, $400',
                     imgSrc: OfSoundMind,
@@ -58,7 +50,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 2,
+                    id: 1,
                     title: "Flower Study 2",
                     subTitle: '5 x 7 Oil on Canvas, $100',
                     imgSrc: FlowerStudy,
@@ -66,7 +58,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 3,
+                    id: 2,
                     title: "Flower Study 2",
                     subTitle: '18 x 24 Oil on Canvas, $100',
                     imgSrc: FlowerStudy2,
@@ -74,7 +66,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 4,
+                    id: 3,
                     title: 'Graphic Memories',
                     subTitle: '16 x 20 Oil on Canvas, $400',
                     imgSrc: GraphicMemories,
@@ -82,7 +74,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 5,
+                    id: 4,
                     title: 'Moving Forward',
                     subTitle: '15 x 30 Oil on Canvas, $500',
                     imgSrc: MovingForward,
@@ -90,7 +82,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 6,
+                    id: 5,
                     title: 'Heidi',
                     subTitle: '16 x 20 Oil on Canvas, $450',
                     imgSrc: Heidi,
@@ -98,7 +90,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 7,
+                    id: 6,
                     title: 'Virgo Intent',
                     subTitle: '18 x 24 Oil on Canvas, $500',
                     imgSrc: VirgoIntent,
@@ -106,7 +98,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 8,
+                    id: 7,
                     title: 'So far, So good',
                     subTitle: '14 x 18 Oil on Canvas, $400',
                     imgSrc: SoFarSoGood,
@@ -114,7 +106,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 9,
+                    id: 8,
                     title: 'Settled',
                     subTitle: '25 x 33 Oil on Canvas, $700',
                     imgSrc: Settled,
@@ -122,7 +114,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 10,
+                    id: 9,
                     title: 'Mindscapes',
                     subTitle: '4 x 4 Oil on Canvas, $75',
                     imgSrc: Mindscape,
@@ -130,7 +122,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 11,
+                    id: 10,
                     title: 'Mindscapes',
                     subTitle: '4 x 4 Oil on Canvas, $75',
                     imgSrc: Mindscape2,
@@ -138,7 +130,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 12,
+                    id: 11,
                     title: 'Truth Follows',
                     subTitle: '18 x 20 Oil on Canvas, $400',
                     imgSrc: TruthFollows,
@@ -146,7 +138,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 13,
+                    id: 12,
                     title: 'Mindscapes',
                     subTitle: '4 x 4 Oil on Canvas, $75',
                     imgSrc: Mindscape3,
@@ -154,7 +146,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 14,
+                    id: 13,
                     title: 'The Way We Love',
                     subTitle: '18 x 24 Oil on Canvas, $400',
                     imgSrc: TheWayWeLove,
@@ -162,7 +154,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 15,
+                    id: 14,
                     title: 'Together At Last',
                     subTitle: '10 x 10 Oil on Canvas, $250',
                     imgSrc: TogetherAtLast,
@@ -170,7 +162,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 16,
+                    id: 15,
                     title: "Whenever I'm With You",
                     subTitle: '18 x 24 Oil on Canvas, $700',
                     imgSrc: WheneverImWithYou,
@@ -178,7 +170,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 17,
+                    id: 16,
                     title: "Effie's Point",
                     subTitle: '18 x 25 Oil on Canvas, $525',
                     imgSrc: EffiesPoint,
@@ -186,7 +178,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 18,
+                    id: 17,
                     title: "Rose Trio",
                     subTitle: '18 x 24 Oil on Canvas, $250',
                     imgSrc: RoseTrio,
@@ -194,7 +186,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 19,
+                    id: 18,
                     title: "Flowers for Maya",
                     subTitle: '5 x 7 Oil on Canvas, $150',
                     imgSrc: FlowersForMaya,
@@ -202,7 +194,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 20,
+                    id: 19,
                     title: "Bouqet 3",
                     subTitle: '12 x 16 Oil on Canvas, $300',
                     imgSrc: Bouqet,
@@ -210,7 +202,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 21,
+                    id: 20,
                     title: "Bouqet 2",
                     subTitle: '4 x 4 Oil on Canvas, $75',
                     imgSrc: Bouqet2,
@@ -218,7 +210,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 22,
+                    id: 21,
                     title: "Bouqet",
                     subTitle: '4 x 4 Oil on Canvas, $75',
                     imgSrc: Bouqet3,
@@ -226,7 +218,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 23,
+                    id: 22,
                     title: "Empire Dreams",
                     subTitle: '12 x 24 Oil on Canvas, $450',
                     imgSrc: EmpireDreams,
@@ -234,7 +226,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 24,
+                    id: 23,
                     title: "Permission To Dream",
                     subTitle: '8 x 17 Oil on Canvas, $300',
                     imgSrc: PermissionToDream,
@@ -242,7 +234,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 25,
+                    id: 24,
                     title: "Tulips",
                     subTitle: '11 x 14 Oil on Canvas, $300',
                     imgSrc: Tulips,
@@ -250,7 +242,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 26,
+                    id: 25,
                     title: "Heart Condition",
                     subTitle: '16 x 20 Oil on Canvas, $400',
                     imgSrc: HeartCondition,
@@ -258,7 +250,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 27,
+                    id: 26,
                     title: "Mindscapes",
                     subTitle: '4 x 4 Oil on Canvas, $75',
                     imgSrc: Mindscape4,
@@ -266,7 +258,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 28,
+                    id: 27,
                     title: "Untitled",
                     subTitle: '4 x 4 Oil on Canvas, $75',
                     imgSrc: Untitled,
@@ -274,7 +266,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 29,
+                    id: 28,
                     title: "Flower Study 3",
                     subTitle: '4 x 4 Oil on Canvas, $75',
                     imgSrc: FlowerStudy3,
@@ -291,7 +283,15 @@ class Carousel extends React.Component {
 
         let items = [...this.state.items];
 
+
+        
+
         items[id].selected = items[id].selected ? false : true;
+        
+        // const  foundWinfred = document.querySelectorAll(".linkThing[data-id=0]")
+        // console.log(foundWinfred[0]);
+
+
 
         items.forEach(item => {
             if(item.id !== id) {
@@ -307,7 +307,7 @@ class Carousel extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
+            return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id}/>
         })
     }
 
